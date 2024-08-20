@@ -57,7 +57,7 @@ def store_order_in_db(order):
 
 def send_confirmation_email(customer_email, order_id):
     response = ses.send_email(
-        Source='karooboido@gmail.com',  # Replace with a verified SES email
+        Source='anilthapajee@gmail.com',  # Replace with a verified SES email
         Destination={
             'ToAddresses': [customer_email]
         },

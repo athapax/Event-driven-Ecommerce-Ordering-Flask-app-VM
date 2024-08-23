@@ -18,7 +18,7 @@ resource "aws_launch_template" "app_lt" {
     name = aws_iam_instance_profile.ec2_instance_profile.name
   }
 
-  key_name = "solo-access-key" # Replace with your key pair name
+  key_name = "anil-access-key" # Replace with your key pair name
 
   user_data = base64encode(<<-EOF
               #!/bin/bash
